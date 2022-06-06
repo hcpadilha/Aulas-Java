@@ -1,0 +1,9 @@
+Expressões booleanas
+
+"&&" --> "E"                 OBS: Essas expressões são usadas  
+"||" --> "OU"                       com 2 ou mais objetos.
+
+---------------------------------------------------------
+Matriz: é a junção de varios atributos de um mesmo tipo (array). Mesmo que o tipo dessa matriz for um tipo primitivo (int, double, boolean...) ela tera o valor de um objeto. 
+EX-> int[] nums;
+     Cachorro[] filhotes;

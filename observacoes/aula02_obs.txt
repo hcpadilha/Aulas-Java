@@ -1,0 +1,25 @@
+Estruturas de Repetição
+
+*FOR*
+-> Aperfeiçoado
+As condições são dadas dentro do parenteses antes da abertura das chaves. A variavel de inicialização (init i;) só pode ser declarada no espaço determinado para a condição.
+
+
+
+->Não aperfeiçoado
+
+
+
+
+*DO-WHILE*
+
+A única diferença entre while e do-while, é que o do-while vai executar pelo menos uma vez antes de verificar se a condição é acessivel ou não.
+
+
+
+
+
+
+
+
+

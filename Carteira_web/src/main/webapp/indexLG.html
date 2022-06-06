@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;800&display=swap" rel="stylesheet">
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background: rgb(192, 236, 125);
+    }
+    h1{
+        top: 50%;
+        left: 50%;
+       text-align: center;
+        font-family:'Public Sans', sans-serif; 
+    }
+
+    .tela-login{
+        background-color: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding: 70px;
+        border-radius: 15px;
+        color: #fff;
+        align-items: center;
+    }
+    input{
+        border: none;
+        padding: 15px;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+    button{
+        background-color: dodgerblue;
+        border: none;
+        padding: 15px;
+        width: 100%;
+        border-radius: 10px;
+        color: white;
+        font-size: 15px;
+        
+    }
+    button:hover{
+        background-color: deepskyblue;
+        cursor: pointer;
+    }
+    
+     a{
+        text-decoration: none;
+        color: rgba(204, 223, 41, 0.963);
+    }
+</style>
+</head>
+<body>
+    <div>
+        <h1>Bem vindo, a sua carteira digital!</h1>
+    </div>
+    <div class="tela-login">
+        <h2>Login</h2>
+        <input type="text" placeholder="Nome">
+        <br><br>
+        <input type="password" placeholder="Senha">
+        <br><br>
+        <button>Enviar</button>
+        <p>
+            Não possui um login?  <a href="#">Cadastre-se</a>
+        </p>
+    </div>
+</body>
+</html>

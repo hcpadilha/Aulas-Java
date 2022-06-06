@@ -1,0 +1,12 @@
+*Herança*
+-> Só á uma herança quando há uma relação entre superclasse e subclasse.
+-> Superclasse é uma classe abstrata, ou seja, tem informações menos especificas.
+-> Subclasse é uma classe concreta, ou seja, possui uma atribuição mais especifica.
+
+EX:    |Animal|*SUPERCLASSE*
+          ^
+          |
+|Felino| ---  |Canino|
+   ^            ^
+   |            |
+|Leão|      |Cachorro| *SUBCLASSE*
